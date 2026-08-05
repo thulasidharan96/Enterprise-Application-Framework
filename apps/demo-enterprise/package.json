@@ -1,0 +1,32 @@
+{
+  "name": "demo-enterprise",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@eaf/core": "*",
+    "@eaf/layout": "*",
+    "@eaf/navigation": "*",
+    "@eaf/plugin-sdk": "*",
+    "@eaf/theme": "*",
+    "@fluentui/react-components": "^9.50.0",
+    "@tanstack/react-query": "^5.32.0",
+    "@tanstack/react-router": "^1.28.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "msw": "^2.3.0"
+  }
+}
